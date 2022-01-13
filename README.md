@@ -1,7 +1,7 @@
 # Exploratory Data Analysis of MTA Turnstile Data
 ## **Abstract**
 
-The goal of this project was to find the specific places in the New York City area that my client, street performer and violinist Karolina Protsenko, should perform in order to maximize the amount of foot traffic that would see her performances. I used turnstile data from the Metropolitan Transit Authority (MTA) in October - December 2021 in order to determine the stations and times of day with the most people entering and exiting. I used the Python library Plotly to visualize and communicate the results through interactive line plots and a geographic map.
+The goal of this project was to find the specific places in the New York City area that my client, street performer and violinist Karolina Protsenko, should perform in order to maximize the amount of foot traffic that would see her performances. I used turnstile data from the [Metropolitan Transit Authority (MTA)](http://web.mta.info/developers/turnstile.html) in October - December 2021 in order to determine the stations and times of day with the most people entering and exiting. I used the Python library Plotly to visualize and communicate the results through interactive line plots and a geographic map.
 
 ## **Design**
 
