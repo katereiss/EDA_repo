@@ -9,7 +9,7 @@ The goal of this project was to find the specific places in the New York City ar
 
 ## **Data**
 
-The dataset contains cumulative turns per turnstile for all MTA stations over the course of 91 days. Turnstile identification, station, date, time, entries, and exits are included. Most turnstiles were measured every four hours, though there were many exceptions. Entries and exits were combined in analysis, as this client is concerned with total traffic in a particular area of the city. Times were important in order to inform the client what times of day are most crowded. The most recent three months of data, October through December 2021, were included because this client is interested in performing soon, and historical data may not provide accurate predictions for today due to differing traffic patterns throughout the pandemic. 
+The MTA dataset contains cumulative turns per turnstile for all MTA stations over the course of 91 days. Turnstile identification, station, date, time, entries, and exits are included. Most turnstiles were measured every four hours, though there were many exceptions. Entries and exits were combined in analysis, as this client is concerned with total traffic in a particular area of the city. Times were important in order to inform the client what times of day are most crowded. The most recent three months of data, October through December 2021, were included because this client is interested in performing soon, and historical data may not provide accurate predictions for today due to differing traffic patterns throughout the pandemic. I also included a dataset of pedestrian-only streets from [NYC Open Data](https://data.cityofnewyork.us/Health/Open-Streets-Locations/uiay-nctu/data) in order to map pedestrian-only streets on top of the most populated stations to visualize proximity.  
 
 ## **Algorithms**
 
@@ -22,6 +22,7 @@ A thorough exploratory data analysis was performed of MTA turnstile data. Cumula
 - Pandas for data manipulation, cleaning, and analysis
 - Matplotlib for plotting
 - Plotly for interactive visualizations
+- Geopy for finding latitude/longitude of street addresses
 - RISE for presenting
 
 ## **Communication**
